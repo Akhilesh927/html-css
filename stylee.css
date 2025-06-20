@@ -1,0 +1,35 @@
+ body{
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color:#A5B68D;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    padding: 35px;
+    border-radius:12px;
+    width:100%;
+    max-width:600px;
+    border:1px solid black;
+    background-color:#C1CFA1;
+}
+fieldset{
+    border:1px solid pink;
+    border-radius:8x;
+    padding:25px;
+    margin-bottom:30px;
+    background-color:#EDE8DC
+
+}
+h1{
+    text-align :center;
+    color:#6f16b4;
+    margin-top:0;
+    margin-bottom:30px;
+    font-size:2em;
+    letter-spacing:-0.5px;
+
+}
