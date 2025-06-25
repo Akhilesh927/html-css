@@ -1,0 +1,10 @@
+document.title="DOM in javascript";
+document.getElementById("header").innerHTML="MRCET"
+document.getElementById("para").style.color="red";
+document.getElementById("para").style.fontsize="30px";
+document.getElementById("header").style.color="red";
+document.getElementsByClassName("ds")[0].style.color="red";
+document.body.style.backgroundColor="light";
+document.getElementsByTagName("p")[2].style.color="red";
+document.getElementsByClassName("ds")[1].style.color="red";
+document.getElementsByTagName("h1")[0].style.backgroundColor="pink";
