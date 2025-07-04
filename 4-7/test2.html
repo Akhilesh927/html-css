@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ajio Shopping</title>
+  <link rel="stylesheet" href="ajio.css" />  
+   <script></script>
+</head>
+
+<body>
+
+  <section id="header">
+    <div class="header">
+      <div style="width: auto; font-size: 25px; color:black;">M.A.K</div>
+      <nav>
+        <ul id="navbar">
+          <div class="search-container">
+            <input type="text" placeholder="Search Here" id="searchInput">
+            <button onclick="handleSearch()" class="search-btn">🔍</button>
+          </div>
+          <li><a href="#homeSection">Home</a></li>
+          <li>
+            <a href="#menSection">MEN</a>
+            <div class="dropdown">
+              <a href="#tshirts">Tshirts</a>
+              <a href="#shirts">Shirts</a>
+              <a href="#hoodies">Hoodies</a>
+              <a href="#pants">Pants</a>
+            </div>
+          </li>
+          <li>
+            <a href="#womenSection">WOMEN</a>
+            <div class="dropdown">
+              <a href="#dresses">Dresses</a>
+              <a href="#tops">Tops</a>
+              <a href="#skirts">Skirts</a>
+              <a href="#jeans">Jeans</a>
+            </div>
+          </li>
+          <li>
+            <a href="#kidsSection">SAREES</a>
+            <div class="dropdown">
+              <a href="#saree1">Saree 1</a>
+              <a href="#saree2">Saree 2</a>
+              <a href="#saree3">Saree 3</a>
+              <a href="#saree4">Saree 4</a>
+            </div>
+          </li>
+          <li>
+            <a href="#boysSection">SHOES</a>
+            <div class="dropdown">
+              <a href="#shoe1">Shoe 1</a>
+              <a href="#shoe2">Shoe 2</a>
+              <a href="#shoe3">Shoe 3</a>
+              <a href="#shoe4">Shoe 4</a>
+            </div>
+          </li>
+          <li>
+            <a href="cart.html" id="cartLink"><i class="far fa-shopping-bag"></i> Cart (<span id="cartCount">0</span>)</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <div id="homeSection">
+    <br><br>
+    <img src="special.jpg" alt="normal Image" style="width: 1500px; height: 250px;">
+    <marquee>
+      <img src="offer.jpeg" style="width: 500px; height: 250px;">
+      <img src="offer.jpeg" style="width: 500px; height: 250px;">
+      <img src="offer.jpeg" style="width: 500px; height: 250px;">
+      <img src="offer.jpeg" style="width: 500px; height: 250px;">
+      <img src="offer.jpeg" style="width: 500px; height: 250px;">
+    </marquee>
+  </div>
+
+  <main>
+
+    <section class="ssc" id="menSection">
+      <h1>Tshirts</h1>
+      <div class="container">
+        <div class="product"><img src="normal.jpg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="print.jpg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="white.jpg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="normal.jpg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+      </div>
+    </section>
+
+    <section class="ssc" id="womenSection">
+      <h1>ladies wear</h1>
+      <div class="container1">
+        <div class="product"><img src="lady1.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="lady2.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="lady3.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="lady4.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+      </div>
+    </section>
+
+    <section class="ssc" id="kidsSection">
+      <h1>sarees</h1>
+      <div class="container1">
+        <div class="product"><img src="saree1.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="saree2.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="saree3.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="saree4.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+      </div>
+    </section>
+
+    <section class="ssc" id="boysSection">
+      <h1>ladies wear</h1>
+      <div class="container1">
+        <div class="product"><img src="lady1.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="lady2.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="lady3.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="lady4.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+      </div>
+    </section>
+
+    <section class="ssc" id="cartSection">
+      <h1>shoes</h1>
+      <div class="container1">
+        <div class="product"><img src="shoe1.webp" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="shoe2.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="shoe3.jpeg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+        <div class="product"><img src="shoe4.jpg" style="width: 350px; height: 350px;"><center><h1>$350</h1><P>MIN 30%</P><BUTTON>ADD TO CART</BUTTON></center></div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    let cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+    
+    function updateCartCount() {
+      document.getElementById('cartCount').textContent = cartItems.length;
+    }
+    
+    document.querySelectorAll("button:not(.search-btn)").forEach(function (btn) {
+      btn.addEventListener("click", function() {
+        const product = this.closest('.product');
+        const item = {
+          name: product.querySelector('h1').textContent,
+          price: product.querySelector('h1 + p').textContent,
+          image: product.querySelector('img').src
+        };
+        cartItems.push(item);
+        localStorage.setItem('cart', JSON.stringify(cartItems));
+        updateCartCount();
+        window.location.href = "cart.html";
+      });
+    });
+    
+    updateCartCount();
+
+    function handleSearch() {
+      const searchTerm = document.getElementById('searchInput').value;
+      if (searchTerm.trim()) {
+        alert(`Searching for: ${searchTerm}`);
+        // Add your actual search logic here
+      }
+    }
+
+    document.getElementById('searchInput').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        handleSearch();
+      }
+    });
+  </script>
+
+
+ 
+
+</body>
+
+</html>
